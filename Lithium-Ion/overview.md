@@ -7,34 +7,36 @@ title: Lithium Ion
     {% if forloop.first %}
     <tr>
       {% for pair in row %}
-        <th>{{ pair[0] }}</th>
+        <th>{{ pair[0] | strip }}</th>
       {% endfor %}
     </tr>
     {% endif %}
 
     <tr>
       {% for pair in row %}
-        {% assign cleaned_value = pair[1] | strip %}
-        {% if pair[0] == 'picture' %}
-          <td><img src="{{ cleaned_value }}" alt="Image" style="max-width: 200px; max-height: 150px;"></td>
-        {% elsif pair[0] == 'result' %}
-          {% if cleaned_value == 'legit' %}
-            <td style="background-color: #90ee90;">{{ cleaned_value }}</td> <!-- Light green -->
-          {% elsif cleaned_value == 'fraud' %}
-            <td style="background-color: #ffcccb;">{{ cleaned_value }}</td> <!-- Light red -->
+        {% assign column_name = pair[0] | strip %}
+        {% assign column_value = pair[1] | strip %}
+        
+        {% if column_name == 'picture' %}
+          <td><img src="{{ column_value }}" alt="Image" style="max-width: 200px; max-height: 150px;"></td>
+        {% elsif column_name == 'result' %}
+          {% if column_value == 'legit' %}
+            <td style="background-color: #90ee90;">{{ column_value }}</td>
+          {% elsif column_value == 'fraud' %}
+            <td style="background-color: #ffcccb;">{{ column_value }}</td>
           {% else %}
-            <td>{{ cleaned_value }}</td>
+            <td>{{ column_value }}</td>
           {% endif %}
-        {% elsif pair[0] == 'source' %}
-          {% if cleaned_value contains 'http://' or cleaned_value contains 'https://' %}
-            <td><a href="{{ cleaned_value }}">{{ cleaned_value }}</a></td>
+        {% elsif column_name == 'source' %}
+          {% if column_value contains 'http://' or column_value contains 'https://' %}
+            <td><a href="{{ column_value }}">{{ column_value }}</a></td>
           {% else %}
-            <td>{{ cleaned_value }}</td>
+            <td>{{ column_value }}</td>
           {% endif %}
-        {% elsif pair[0] == 'report' %}
-          <td><a href="{{ site.baseurl }}{{ pair[1] }}">View Report</a></td>
+        {% elsif column_name == 'report' %}
+          <td><a href="{{ site.baseurl }}{{ column_value }}">View Report</a></td>
         {% else %}
-          <td>{{ cleaned_value }}</td>
+          <td>{{ column_value }}</td>
         {% endif %}
       {% endfor %}
     </tr>
