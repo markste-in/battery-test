@@ -2,3 +2,6 @@ theme: minima
 title: Battery Tests
 description: Testing commercially available batteries
 show_downloads: false
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "cog"

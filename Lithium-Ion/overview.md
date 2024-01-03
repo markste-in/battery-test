@@ -1,6 +1,5 @@
 ---
 title: Lithium Ion
-layout: single
 ---
 
 <table>
