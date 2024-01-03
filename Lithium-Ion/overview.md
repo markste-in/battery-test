@@ -15,7 +15,7 @@ title: Lithium Ion
     <tr>
       {% for pair in row %}
         {% if pair[0] == 'picture' %}
-          <td><img src="{{ pair[1] }}" alt="Image"></td>
+          <td><img src="{{ pair[1] }}" alt="Image" style="max-width: 300px; max-height: 250px;"></td>
         {% elsif pair[0] == 'result' %}
           {% if pair[1] == 'legit' %}
             <td style="background-color: green;">{{ pair[1] }}</td>
