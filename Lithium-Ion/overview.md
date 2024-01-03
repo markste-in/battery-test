@@ -1,5 +1,6 @@
 ---
 title: Lithium Ion
+layout: tables
 ---
 # All conducted Tests
 
