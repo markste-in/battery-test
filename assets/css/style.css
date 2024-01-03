@@ -1,13 +1,5 @@
-.main-content {
-    margin-left: 0;
-    max-width: none;
-}
-
+.main-content,
 .wrapper {
-    max-width: none;
-}
-
-.footer {
+    margin-right: auto;
     margin-left: 0;
-    max-width: none;
 }
