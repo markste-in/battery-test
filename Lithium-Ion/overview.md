@@ -14,24 +14,25 @@ title: Lithium Ion
 
     <tr>
       {% for pair in row %}
+        {% assign cleaned_value = pair[1] | strip %}
         {% if pair[0] == 'picture' %}
-          <td><img src="{{ pair[1] }}" alt="Image" style="max-width: 300px; max-height: 250px;"></td>
+          <td><img src="{{ cleaned_value }}" alt="Image" style="max-width: 200px; max-height: 150px;"></td>
         {% elsif pair[0] == 'result' %}
-          {% if pair[1] == 'legit' %}
-            <td style="background-color: green;">{{ pair[1] }}</td>
-          {% elsif pair[1] == 'fraud' %}
-            <td style="background-color: red;">{{ pair[1] }}</td>
+          {% if cleaned_value == 'legit' %}
+            <td style="background-color: #90ee90;">{{ cleaned_value }}</td> <!-- Light green -->
+          {% elsif cleaned_value == 'fraud' %}
+            <td style="background-color: #ffcccb;">{{ cleaned_value }}</td> <!-- Light red -->
           {% else %}
-            <td>{{ pair[1] }}</td>
+            <td>{{ cleaned_value }}</td>
           {% endif %}
         {% elsif pair[0] == 'source' %}
-          {% if pair[1] contains 'http://' or pair[1] contains 'https://' %}
-            <td><a href="{{ pair[1] }}">{{ pair[1] }}</a></td>
+          {% if cleaned_value contains 'http://' or cleaned_value contains 'https://' %}
+            <td><a href="{{ cleaned_value }}">{{ cleaned_value }}</a></td>
           {% else %}
-            <td>{{ pair[1] }}</td>
+            <td>{{ cleaned_value }}</td>
           {% endif %}
         {% else %}
-          <td>{{ pair[1] }}</td>
+          <td>{{ cleaned_value }}</td>
         {% endif %}
       {% endfor %}
     </tr>
