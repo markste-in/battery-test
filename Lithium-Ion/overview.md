@@ -31,6 +31,8 @@ title: Lithium Ion
           {% else %}
             <td>{{ cleaned_value }}</td>
           {% endif %}
+        {% elsif pair[0] == 'report' %}
+          <td><a href="{{ site.baseurl }}{{ pair[1] }}">View Report</a></td>
         {% else %}
           <td>{{ cleaned_value }}</td>
         {% endif %}
