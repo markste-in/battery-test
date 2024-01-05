@@ -1,11 +1,11 @@
 ---
-title: Lithium Ion
+title: Alkaline Batteries
 layout: tables
 ---
 # All conducted Tests
 
 <table>
-  {% for row in site.data.lithium-ion %}
+  {% for row in site.data.alkaline %}
     {% if forloop.first %}
     <tr>
       {% for pair in row %}

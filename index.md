@@ -8,10 +8,4 @@ layout: default
 # Capacity Tests
 [Lithium-Ion](Lithium-Ion/overview)
 
-Lithium iron phosphate (LiFePo4)
-
-Nickel-Cadmium (NiCd)
-
-# Test Equipment
-
-Coming soon
+[Alkaline](Alkaline/overview)
