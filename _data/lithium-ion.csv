@@ -1,6 +1,8 @@
 picture, Manufacturer, Type, Form Factor, State, Advertised Cap. [mAh], Measured Capacity [mAh], Load [A], Ri [Ohm],result,report, Comment,Source
-/assets/images/0002t.JPG,MURATA, VTC6, 18650, low usage (less than 100 cycles), 3120, 2683, 1, ,legit, /reports/0001 ,black marking, Amazon
-/assets/images/0005t.JPG,GTF, LED FLASHLIGHT EXPERT, 18650, new, 9900, 758, 1, 0.477,fraud,,cannot handle much more than 1A, ebay
-/assets/images/0007t.JPG,UltraFire, BRC 18650 red, 18650, new, 7800, 435, 1, 0.496,fraud,,cannot handle more than 1A,ebay
+/assets/images/0002t.JPG,MURATA, VTC6, 18650, low usage (less than 100 cycles), 3120, 2416, 10, 0.064,legit, /reports/0001 ,, Amazon
+/assets/images/0005t.JPG,GTF, LED FLASHLIGHT EXPERT, 18650, new, 9900, 758, 1, 0.477,fraud,,cannot handle much more than 3A, ebay
+/assets/images/0007t.JPG,UltraFire, BRC 18650 red, 18650, new, 7800, 435, 1, 0.496,fraud,,cannot handle more than 2A,ebay
 /assets/images/0010t.JPG,Rakieta, Gold?, 18650, new, 12000, 124, 1, 0.520,fraud,,cannot handle more than 1A,ebay
 /assets/images/0003t.JPG,EFEST, IMR 26650, 26650, new, 3500, 3364, 10, 0.054,legit,,has no issues handling 30A,Akkuteile.de
+,M2 TEC, Yellow-Black, 18650, new, 8800, 80, 1, 0.399,fraud,,cannot handle more than 1A,ebay
+/assets/images/0006t.JPG,Varlonpan, White-Copper, 18650, new, 8800, 858, 1, 0.387,fraud,,cannot handle more than 3A,ebay
