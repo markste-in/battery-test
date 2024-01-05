@@ -39,7 +39,7 @@ layout: tables
           {% if column_value != '' %}
             <td><a href="{{ site.baseurl }}{{ column_value }}">View Report</a></td>
           {% else %}
-            <td>No Report Available</td> <!-- Or leave this empty if preferred -->
+            <td>No Report Available yet</td> <!-- Or leave this empty if preferred -->
           {% endif %}
         {% else %}
           <td>{{ column_value }}</td>
