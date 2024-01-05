@@ -19,9 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: The battery test page
-email: your-email@example.com
+email: contact@battery-test.org
 description: >- # this means to ignore newlines until "baseurl:"
-   The test and result page for commercially available batteries
+   Testing commercially available batteries and revealing potential fraud and scam.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://battery-test.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Markste_in
