@@ -6,4 +6,4 @@ picture, Manufacturer, Type, Form Factor, C. of Origin, State, Advertised Cap. [
 /assets/images/tests/liion/0003t.JPG,EFEST, IMR 26650, 26650,China,new, 3500, 3364, 10,,,legit,88.20,has no issues handling 30A,Akkuteile.de
 /assets/images/tests/liion/0011t.JPG,M2 TEC, Yellow-Black, 18650,unknown (China?),new, 8800, 80, 1,,34.50-35.40,fraud,,cannot handle more than 1A,https://web.archive.org/web/20240105135535/https://www.ebay.de/itm/352463497465
 /assets/images/tests/liion/0006t.JPG,Varlonpan, White-Copper, 18650, China,new, 8800, 858, 1,,34.00-37.14,fraud,,cannot handle more than 3A,https://web.archive.org/web/20240105135103/https://www.ebay.de/itm/134660033679?var=434176118750
-/assets/images/tests/liion/0013t.JPG,ASO, GH40403EH 403840 SZN / Purple, 18650, unknown, recovered from laptop battery, ?, TBD, TBD, TBD, 42.21-42.65,TBD, , scheduled for testing, Laptop Battery Pack
+/assets/images/tests/liion/0013t.JPG,ASO, GH40403EH 403840 SZN / Purple, 18650, unknown, recovered from laptop battery, ?, 1969, 1, TBD, 42.21-42.65,legit, , scheduled for testing, Laptop Battery Pack
