@@ -14,7 +14,7 @@ Zechliner Str. 2b  \
 
 Telefon: 030/86453272 \
 E-Mail: contact@battery-test.org \
-Website: www.battery-test.org \
+Website: www.battery-test.org
 
 
 
