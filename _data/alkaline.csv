@@ -1,4 +1,4 @@
-picture, Manufacturer, Type, Form Factor, C. of Origin, State, Measured Capacity [mAh], Load [A], Ri [Ohm], Weight [g],result,report, Comment,source
-/assets/images/tests/alkaline/0012t.JPG,Amazon, amazonbasics Industrial, AA, China, unused / 1y old, 1235, 0.5,0.190-0.323,23.31-23.42,legit,,, Amazon
-/assets/images/tests/alkaline/0019t.JPG,Kaufland, SwitchOn, AA, China, new, 897, 0.5,0.268-0.278,23.72-23.92,legit,, , Kaufland
-/assets/images/tests/alkaline/0024t.JPG,7 eleven, 24/7 life Super Alkaline Plus, AAA, China, new, 583, 0.5,0.0.370-0.440,11.24-11.30,legit,, , 7 eleven
+picture, Manufacturer, Type, Form Factor, C. of Origin, State, Measured Capacity @ 500 mA drain [mAh], Measured Capacity @ 50 mA drain [mAh], Ri [Ohm], Weight [g],result,report, Comment,source
+/assets/images/tests/alkaline/0012t.JPG,Amazon, amazonbasics Industrial, AA, China, unused / 1y old, 1235, ,0.190-0.323,23.31-23.42,legit,,, Amazon
+/assets/images/tests/alkaline/0019t.JPG,Kaufland, SwitchOn, AA, China, new, 897, ,0.268-0.278,23.72-23.92,legit,, , Kaufland
+/assets/images/tests/alkaline/0024t.JPG,7 eleven, 24/7 life Super Alkaline Plus, AAA, China, new, 583, ,0.0.370-0.440,11.24-11.30,legit,, , 7 eleven
