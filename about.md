@@ -1,25 +1,27 @@
 ---
 layout: page
-title: About
+title: Impressum
 permalink: /about/
 ---
 
-Impressum
+## Anbieter:
 
-Anbieter:
-Tommy Markstein
-Zechliner Str. 2b   
+Tommy Markstein \
+Zechliner Str. 2b  \
 13055 Berlin
 
-Kontakt:
-Telefon: 030/86453272
-E-Mail: contact@battery-test.org
-Website: www.battery-test.org
+## Kontakt:
+
+Telefon: 030/86453272 \
+E-Mail: contact@battery-test.org \
+Website: www.battery-test.org \
 
 
-Bei redaktionellen Inhalten:
+
+#### Bei redaktionellen Inhalten:
 
 Verantwortlich nach § 55 Abs.2 RStV
-Tommy Markstein
-Zechliner Str. 2b   
+
+Tommy Markstein \
+Zechliner Str. 2b \
 13055 Berlin
