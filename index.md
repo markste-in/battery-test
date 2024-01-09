@@ -8,4 +8,6 @@ layout: default
 # Capacity Tests
 [Lithium-Ion](Lithium-Ion/overview)
 
+[NiMH](NiMH/overview)
+
 [Alkaline](Alkaline/overview)
