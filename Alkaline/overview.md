@@ -1,5 +1,5 @@
 ---
-title: Alkaline Batteries
+title: Alkaline
 layout: tables
 ---
 # All conducted Tests

@@ -1,5 +1,5 @@
 ---
-title: Nickel-metal hydride battery
+title: NiMH
 layout: tables
 ---
 # All conducted Tests
