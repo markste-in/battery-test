@@ -8,4 +8,4 @@ picture, Brand, Type, Form Factor, C. of Origin, State, Measured Capacity @ load
 /assets/images/tests/alkaline/0036t.JPG,Amazon, amazon basics (orange), AA, China, new, 2498mAh@50mA <br> 2261mAh@100mA, TBD ,0.136-0.155,22.85-23.18,legit,, , Amazon
 /assets/images/tests/alkaline/0037t.JPG,Energizer, Max (Silver-Black), AA, China, new, 2682mAh@50mA <br> 2349mAh@100mA <br> 2047mAh@200mA <br>1408mAh@500mA, TBD ,0.177-0.384,23.76-24.03,legit,, , Amazon
 /assets/images/tests/alkaline/0038t.JPG,VARTA, Energy (White-Yellow), AA, Germany, new, 2481mAh@50mA <br> 2334mAh@100mA <br> 2033mAh@200mA <br> 1475mAh@500mA, TBD ,0.150-0.304,22.35-22.51,legit,, , Amazon
-/assets/images/tests/alkaline/0039t.JPG,Duracell, Optimum (Black-Copper), AA, Belgium, new, 1617mAh@500mA, TBD ,0.122,24.10,legit,, , Amazon
+/assets/images/tests/alkaline/0039t.JPG,Duracell, Optimum (Black-Copper), AA, Belgium, new, 2669mAh@50mA <br> 2558mAh@100mA <br> 2153mAh@200mA <br> 1617mAh@500mA, 1608mAh@500ma ,0.118-0.209,24.00-24.17,legit,, , Amazon
