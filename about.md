@@ -6,13 +6,11 @@ permalink: /about/
 
 ## Anbieter:
 
-Tommy Markstein \
-Zechliner Str. 2b  \
-13055 Berlin
+<fill in> 
 
 ## Kontakt:
 
-Telefon: 030/86453272 \
+Telefon: <fill in> \
 E-Mail: contact@battery-test.org \
 Website: www.battery-test.org
 
