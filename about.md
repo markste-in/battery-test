@@ -20,6 +20,4 @@ Website: www.battery-test.org
 
 Verantwortlich nach § 55 Abs.2 RStV
 
-Tommy Markstein \
-Zechliner Str. 2b \
-13055 Berlin
+<fill in>
